@@ -1,0 +1,201 @@
+body {
+  background-image: url("../images/subtlenet2.png");
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #777777;
+}
+
+h4, h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: solid 2px #dddddd;
+  padding: 0;
+}
+
+/*a:link, a:visited {
+  text-decoration: none;
+}*/
+
+.navbar-brand {
+  background-color: #4aaaa5;
+  text-align: center;
+  color: #ffffff;
+  font-size: 150%;
+  padding:  1em;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*stroke effects
+
+nav a, nav a:after, nav a:before {
+  transition: all .5s;
+}
+
+nav.stroke a {
+  position: relative;
+}
+
+nav.stroke a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #4aaaa5;
+  height: 2px;
+}
+
+nav.stroke a:hover:after {
+  width: 80%;
+}
+
+*/
+
+.bar-1 {
+}
+
+.bar-2 {
+  border-left: 1px solid #dddddd;
+}
+
+.bar-3 {
+  border-left: 1px solid #dddddd;
+}
+
+.teal {
+  color: #4aaaa5;
+}
+
+.card-title {
+  border-bottom: #dddddd 1px solid;
+}
+
+.background {
+  background-color: #ffffff;
+}
+
+.img-fluid {
+  max-width: 25%;
+}
+
+ul.bio {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.bio {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+li.bio::before {
+  content: "• ";
+  color: #4aaaa5;
+  width: 1em;
+  margin-right: 3px;
+}
+
+.icon {
+  max-width: 100%;
+}
+
+.icon:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.btn-primary {
+  background-color: #4aaaa5;
+  border-radius: 0px;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn-primary:hover {
+  background-color: #666666;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 10px #4aaaa5;
+}
+
+/*.card-img-overlay {
+  position: relative;
+  top: -60px;
+  background-color: #4AAAA5;
+  padding: 0;
+  color: #ffffff;
+}*/
+
+.card-img {
+  border-radius: 0;
+  opacity: 0.8;
+}
+
+.card {
+  border-radius: 0;
+}
+
+#no-border {
+  border: 0px;
+}
+
+.portfolio-label {
+  position: relative;
+  top: -55px;
+  background-color: #4AAAA5;
+  padding: .5em 0 0 .3em;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.card-img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.wrapper {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  min-height: calc(100vh - 3.5em);
+}
+
+.footer {
+  width: 100%;
+  background-color: #666666;
+  border-top: #4aaaa5 .2em solid;
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.8em;
+  padding: .8em;
+}
+
+@media only screen and (max-width: 991px) {
+  .bar-2 {
+    border-left: 0px;
+  }
+
+  .bar-3 {
+    border-left: 0px;
+  }
+
+  .navbar-brand {
+    margin-left: 1rem;
+  }
+
+  .navbar-nav {
+    margin-left: 1rem;
+  }
